@@ -93,7 +93,7 @@ $(function (){
 	}
 
 	function setShareableLink(str){
-		var base = 'http://www.nomnoml.com/#view/'
+		var base = '#view/'
 		linkLink.href = base + urlEncode(str)
 	}
 
