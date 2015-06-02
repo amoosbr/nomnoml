@@ -103,7 +103,7 @@ $(function (){
 			return {
 				read: function (){ return urlDecode(locationHash.substring(6)) },
 				save: function (source){ setShareableLink(textarea.value) },
-				moveToLocalStorage: function (){ localStorage[key] = this.read() },
+				moveToLocalStorage: function (){ localStorage[key] = textarea.value },
 				isReadonly: true
 			}
 		return {
